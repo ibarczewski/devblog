@@ -1,9 +1,8 @@
 ---
 template: page
-title: Who Am I?
-slug: Who Am I?
+title: About Me
+slug: About Me
 draft: false
-socialImage: "/media/image-4.jpg"
 ---
 I am a dog.
 
