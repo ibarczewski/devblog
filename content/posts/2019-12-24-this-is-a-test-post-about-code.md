@@ -2,7 +2,7 @@
 template: post
 title: This is a test post about code.
 slug: 'I enjoy code, and this has code in it.'
-draft: true
+draft: false
 date: 2019-12-24T04:50:44.784Z
 description: A test page about code.
 category: coding
