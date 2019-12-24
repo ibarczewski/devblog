@@ -3,6 +3,7 @@ template: page
 title: Who Am I?
 slug: Who Am I?
 draft: false
+socialImage: "/media/image-4.jpg"
 ---
 I am a dog.
 
