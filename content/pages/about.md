@@ -1,7 +1,6 @@
 ---
 template: page
 title: About Me
-slug: About Me
 draft: false
 socialImage: "/media/image-4.jpg"
 ---
