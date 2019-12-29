@@ -25,18 +25,18 @@ const Layout = ({
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
-  const darkTheme = {
-    body: '#363537',
-    text: '#FAFAFA',
-    toggleBorder: '#6B8096',
-    gradient: 'linear-gradient(#091236, #1E215D)',
-  }
-  const lightTheme = {
-    body: '#FFFFFF',
-    text: '#363537',
-    toggleBorder: '#FFF',
-    gradient: 'linear-gradient(#39598A, #79D7ED)'
-  }
+  // const darkTheme = {
+  //   body: '#363537',
+  //   text: '#FAFAFA',
+  //   toggleBorder: '#6B8096',
+  //   gradient: 'linear-gradient(#091236, #1E215D)',
+  // }
+  // const lightTheme = {
+  //   body: '#FFFFFF',
+  //   text: '#363537',
+  //   toggleBorder: '#FFF',
+  //   gradient: 'linear-gradient(#39598A, #79D7ED)'
+  // }
   const isDarkModeToggled = useSelector(state => state.isNightModeToggled);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -48,7 +48,7 @@ const Layout = ({
   console.log(isDarkModeToggled);
 
   return (
-    <ThemeProvider theme={isDarkModeToggled ? darkTheme : lightTheme}>
+    <div>
       <GlobalStyles />
       <div className={styles.layout}>
         <Helmet>
@@ -64,7 +64,7 @@ const Layout = ({
         </Helmet>
         {children}
       </div>
-    </ThemeProvider>
+    </div>
   );
 };
 
