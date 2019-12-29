@@ -1,12 +1,12 @@
 // @flow strict
-import React from 'react';
+import React, { useEffect } from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
 import { ThemeProvider } from 'styled-components';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { GlobalStyles } from '../GlobalStyles/GlobalStyles';
 
 type Props = {
@@ -38,6 +38,13 @@ const Layout = ({
     gradient: 'linear-gradient(#39598A, #79D7ED)'
   }
   const isDarkModeToggled = useSelector(state => state.isNightModeToggled);
+  const dispatch = useDispatch();
+  useEffect(() => {
+      console.log('oops');
+      if (window.localStorage.getItem("isNightModeToggled") === "true" && !isDarkModeToggled) {
+          dispatch({type: 'TOGGLE_NIGHT_MODE'});
+      }
+  }, []);
   console.log(isDarkModeToggled);
 
   return (
