@@ -15,6 +15,10 @@
       text-decoration: underline;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: $dark-mode-color-base;
+  }
 }
 
 @include breakpoint-sm {
@@ -22,5 +26,4 @@
     margin-left: auto;
     margin-right: auto;
   }
-
 }

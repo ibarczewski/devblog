@@ -23,8 +23,11 @@
         color: $color-base
       }
 
-    }
+      @media (prefers-color-scheme: dark) {
+        color: $dark-mode-color-base;
+      }
 
+    }
   }
 
   &__subtitle {

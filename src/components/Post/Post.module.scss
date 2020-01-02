@@ -35,6 +35,9 @@
       color: $color-primary;
     }
 
+    @media (prefers-color-scheme: dark) {
+      color: $dark-mode-color-base;
+    }
   }
 
 }

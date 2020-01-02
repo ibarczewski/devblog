@@ -9,5 +9,6 @@ export const GlobalStyles = createGlobalStyle`
       background: #363537;
       color: '#FAFAFA';
       transition: all 0.25s linear;
+      
     }
   }`

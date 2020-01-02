@@ -30,6 +30,11 @@
           border-bottom: 1px solid $color-base;
         }
 
+        @media (prefers-color-scheme: dark) {
+          color: $dark-mode-color-base;
+          text-decoration-color: $dark-mode-color-base;
+        }
+
       }
 
     }

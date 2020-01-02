@@ -15,7 +15,10 @@
     text-align: center;
     @include line-height(1.65);
     @include margin-top(1);
-    @include margin-bottom(0)
+    @include margin-bottom(0);
+    @media (prefers-color-scheme: dark) {
+      color: $dark-mode-color-base;
+    }
   }
 
   &__body {
@@ -54,8 +57,10 @@
       max-width: 100%;
     }
 
+    @media (prefers-color-scheme: dark) {
+      color: $dark-mode-color-base;
+    }
   }
-
 }
 
 @include breakpoint-md {
