@@ -6,7 +6,6 @@ import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
-import NightMode from './NightMode';
 
 type Props = {
   isIndex?: boolean,
