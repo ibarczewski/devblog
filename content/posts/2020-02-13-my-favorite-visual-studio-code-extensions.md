@@ -109,7 +109,6 @@ Quokka RULES. No longer do you need to go to the Chrome Dev Tools console or Cod
 ![](/media/quokka.gif)
 
 ## Themes:
-
 ## vscode-icons
 
 I actually downloaded this today! I love having those icons on the side. Makes Visual Studio Code *pretty*.
