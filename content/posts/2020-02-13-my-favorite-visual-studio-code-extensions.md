@@ -1,9 +1,7 @@
 ---
 template: post
 title: 'My Visual Studio Code Setup, or: What Obsession With Extensions Looks Like'
-slug: >-
-  Visual Studio Code grants developers direct access to the dark arts. Let's use
-  them.
+slug: my_visual_studio_code_setup
 draft: false
 date: 2020-02-12T19:23:06.032Z
 description: >-
