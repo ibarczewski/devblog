@@ -1,11 +1,16 @@
 ---
 template: post
-title: My Favorite Visual Studio Code Extensions
-slug: test
-draft: true
+title: 'My Visual Studio Code Setup, or: What Obsession With Extensions Looks Like'
+slug: >-
+  Visual Studio Code grants developers direct access to the dark arts. Let's use
+  them.
+draft: false
 date: 2020-02-12T19:23:06.032Z
-description: test
-category: visual studio code
+description: >-
+  Visual Studio Code grants developers direct access to the dark arts. Let's use
+  them. This is my list of extensions, along with a few theme choices I've made
+  to make Visual Studio Code a more pleasant visual experience.
+category: code
 tags:
   - visual studio code
 ---
@@ -14,7 +19,7 @@ One of the things people bring up when working on my Visual Studio Code instance
 I started a Slack channel at work to talk about VS Code extensions. As I started typing out what I had, I realized that I would probably be better off writing out an entire blog post. 
 
 Anyways, here's the list of my extensions that I use often. My development life is far better because of these extensions, and I am endlessly grateful to the developers who created these.
- 
+
 ## Prettier
 
 One of the best libraries out there, Prettier takes an opinionated approach into reformatting your code to conform to a style. No more arguments and debates about styles, no need to make a style guide. Prettier enforces a style.
@@ -45,7 +50,15 @@ However, I really love the simple in-line author name and time of commit shown o
 
 ## ES7 Snippets
 
+Probably the most popular extension on here, this happens to be the one that I know I am not taking advantage of more. The parts of it I do use, however, are invaluable. Using usually a set of three to four letters, you can drop in a template of code, such as a React component, and save time typing out the entire component.
+
+![](/media/snippet.gif)
+
 ## ESLint
+
+In the same way that the Prettier extension will clean up your code using the Prettier library, ESLint will lint your code using your preferred ESLint configuration on the fly. If you disable the auto fix setting, ESLint will instead highlight the code that trips up your linting rules and put an overlay over the code when hovering, explaining what lint rule you're violating. Very useful to cut down on linting errors before running your code through a pre-commit linter hook.
+
+![](/media/screen-shot-2020-02-12-at-9.51.52-pm.png)
 
 ## Import Cost
 
@@ -55,13 +68,25 @@ Simple - see the sizes of the packages you're importing, along with color custom
 
 ![](/media/importcost.jpg)
 
-## Indent Rainbow
+## indent-rainbow
 
-## Rainbow Brackets
+When you are working in any language that relies on tabbing syntactically, this is a godsend. This will show which level every line is on through alternating coloring.
+
+![](/media/indent-rainbow.png)
+
+## Bracket Pair Colorizer 2
+
+One of my favorite extensions ever, Bracket Pair Colorizer 2 changes the colors of every bracket to match its respective closing bracket. Ever get lost looking for the proper closing bracket? Bracket Pair Colorizer 2 is here to save you. I love this extension so much. It's incredibly useful and looks gorgeous.
+
+*Note: make sure to download BPC 2 and not the original. BPC 2 introduced fixes that greatly optimized the performance of the extension.*
+
+![](/media/bpc.png)
 
 ## Javascript Console Utils
 
-![]()
+Coming in with barely over 50k downloads on the Visual Studio Code Marketplace, I am surprised that this one does not have more traction in the community. Highlight a variable, press ⌘+Shift+L, and a new line will be introduced above the code, console logging said variable. Once you're done, ⌘+Shift+D will remove all of the console.log calls from the document. Excellent little plugin for getting console logs in place fast.
+
+![](/media/consolelog.gif)
 
 ## Settings Sync
 
@@ -85,10 +110,20 @@ Quokka RULES. No longer do you need to go to the Chrome Dev Tools console or Cod
 
 ![](/media/quokka.gif)
 
-\-----
+## Themes:
 
-Extras:
+## vscode-icons
 
-file-icons
+I actually downloaded this today! I love having those icons on the side. Makes Visual Studio Code *pretty*.
 
-Night Owl
+![](/media/screenshot.gif)
+
+## Night Owl
+
+The best color theme I've ever used. Just perfect.
+
+![](/media/nightowl.jpg)
+
+I love tinkering with Visual Studio Code a lot, clearly. 
+
+I'll be updating this post as I add more extensions and themes. I'm really excited to see how people continue to evolve what is, in my opinion, the best free code editor on the market. Hopefully some of these help you as much as they have helped me.
