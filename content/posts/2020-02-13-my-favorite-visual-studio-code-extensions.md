@@ -2,7 +2,7 @@
 template: post
 title: My Favorite Visual Studio Code Extensions
 slug: test
-draft: true
+draft: false
 date: 2020-02-12T19:23:06.032Z
 description: test
 category: visual studio code
