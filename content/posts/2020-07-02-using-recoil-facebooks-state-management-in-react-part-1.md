@@ -1,9 +1,7 @@
 ---
 template: post
 title: 'Using Recoil, Facebook''s State Management, In React: Part 1 - Overview, Atoms'
-slug: >-
-  The first part of a primer on Recoil, we will dive into what Recoil aims to
-  achieve, how to add Recoil to a project, and what Atoms are.
+slug: recoil_primer_part_1
 draft: false
 date: 2020-07-02T20:27:39.960Z
 description: >-
