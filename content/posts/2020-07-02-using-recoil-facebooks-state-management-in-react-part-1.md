@@ -11,6 +11,8 @@ category: react
 tags:
   - react
 ---
+Edit: for some reason, commas are displaying in the posts as "undefined." Working on a fix!
+
 Facebook recently rolled out a new state management tool called Recoil. As the official maintainers of the React framework, this has made the library compelling to use. As popular as Redux is, it is not without issues - a steep learning curve, developers complaining that it feels bolted on to React, and inconsistent project structuring (in the community) with regards to separating presentation concerns with state concerns.
 
 Recoil comes with an \*extremely\* simple API, a low amount of boilerplate, and a "React-ish" feel to state management. While currently less mature than Redux, I do think it is worth watching, and decided to dig into it myself.
